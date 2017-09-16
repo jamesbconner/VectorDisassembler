@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.apache.spark.ml.feature</groupId>
+    <artifactId>VectorDisassembler</artifactId>
+    <version>0.1</version>
+
+    <properties>
+        <spark_version>2.2.0</spark_version>
+        <scala_version>2.11</scala_version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${scala_version}</artifactId>
+            <version>${spark_version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_${scala_version}</artifactId>
+            <version>${spark_version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_${scala_version}</artifactId>
+            <version>${spark_version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
