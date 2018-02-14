@@ -1,0 +1,3 @@
+run:
+	sbt publish-local
+
