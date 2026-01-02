@@ -1,3 +1,8 @@
+# Build
+
+- make run
+
+
 # Vector Disassembler
 
 The Vector Disassembler is a class for [Apache Spark](http://spark.apache.org) which takes a DataFrame Vector data type column as input, and creates a new column in the DataFrame for each item in the Vector.
